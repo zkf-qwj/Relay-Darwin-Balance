@@ -2584,7 +2584,9 @@ ReflectorSession* FindOrCreateSession(StrPtrLen* inPath, QTSS_StandardRTSP_Param
 		//put the session's ID into the session map.
 		theErr = sSessionMap->Register(theSession->GetRef());
 		Assert(theErr == QTSS_NoErr);
-
+		//zlj add for nds                                                                                                                                                                                                                   
+		OSRef* theSessionRef = sSessionMap->Resolve(inPath);
+		qtss_printf("-----------zlj refcount:%d\n",theSession->GetRef()->GetRefCount()); 
 		//unless we do this, the refcount won't increment (and we'll delete the session prematurely
 
 		/*

@@ -2122,7 +2122,8 @@ void RTSPSession::SetupClientSessionAttrs()
         Assert(theValue != NULL);   
         (void)fRTPSession->SetValue(qtssCliSesReqQueryString, 0, theValue->Ptr, theValue->Len, QTSSDictionary::kDontObeyReadOnly);
     }
-    //zlj modfy    
+    
+	//zlj modfy    
     theValue = fRequest->GetValue(qtssRTSPReqQueryString);
     Assert(theValue != NULL);   
 	(void)fRTPSession->SetValue(qtssCliSesReqQueryString, 0, theValue->Ptr, theValue->Len, QTSSDictionary::kDontObeyReadOnly);
