@@ -609,7 +609,7 @@ int sendStream(PH_Interface *obj,char *url,char *user,char *pwd,char *DeviceID,i
 		root["DeviceId"] = DeviceID;
 	}
 
-	if (!(strstr(url,"sip") || strstr(url,"windows") || strstr(url,"ivms8700") || strstr(url,"8200"))){   
+	if (!(strstr(url,"sip") || strstr(url,"ivms8700") || strstr(url,"8200"))){   
 		root["module"]=module;                                                                                                                                                                                   
 	} 
 	int iStrLen = strlen(fter.write(root).c_str());

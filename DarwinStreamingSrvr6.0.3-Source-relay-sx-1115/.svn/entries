@@ -26,6 +26,40 @@ lili
 
 2ab3efdd-4b3d-4445-97f4-9b63a9a7347a
 
+streamingserver.xml
+file
+2176
+
+
+
+2014-03-28T10:17:57.000000Z
+96489c984d8c99201e7585167e007e8c
+2010-07-15T02:49:43.813539Z
+539
+deepgreen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13149
+
 sample.mp3
 file
 2176
@@ -60,39 +94,19 @@ has-props
 
 1789985
 
-streamingserver.xml
+Makefile.POSIX-0929
 file
-2176
+0
+
+
+add
 
 
 
-2014-03-28T10:17:57.000000Z
-96489c984d8c99201e7585167e007e8c
-2010-07-15T02:49:43.813539Z
-539
-deepgreen
+
+
 has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-13149
+has-prop-mods
 
 parseServerOut.py
 file
@@ -128,40 +142,6 @@ has-props
 
 5237
 
-PlatformHeader.h
-file
-2176
-
-
-
-2014-07-07T06:02:33.000000Z
-cce2e74ea808ba491e31f882babeec8e
-2014-11-24T03:05:12.472536Z
-2173
-lili
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6255
-
 gdbserver
 file
 2176
@@ -196,17 +176,17 @@ has-props
 
 305
 
-clean_dss_osx
+PlatformHeader.h
 file
 2176
 
 
 
-2014-03-28T10:17:24.000000Z
-882d27cd0a186a71c38f3aa3fd3df7d8
-2010-07-08T07:33:10.128664Z
-531
-deepgreen
+2014-07-07T06:02:33.000000Z
+cce2e74ea808ba491e31f882babeec8e
+2014-11-24T03:05:12.472536Z
+2173
+lili
 has-props
 
 
@@ -228,7 +208,7 @@ has-props
 
 
 
-2188
+6255
 
 revision.h
 file
@@ -264,14 +244,93 @@ has-props
 
 1489
 
+clean_dss_osx
+file
+2176
+
+
+
+2014-03-28T10:17:24.000000Z
+882d27cd0a186a71c38f3aa3fd3df7d8
+2010-07-08T07:33:10.128664Z
+531
+deepgreen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2188
+
 WebAdmin
 dir
 
 StreamingProxy.tproj
 dir
 
-broadcasterctl
-dir
+DarwinStreamingServer-new-balance-1.0
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+prepare_config.sh
+file
+2176
+
+
+
+2014-03-28T10:17:37.000000Z
+18d0b002a45817aafa842e2bdffa0098
+2010-07-19T10:10:15.504371Z
+560
+deepgreen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+997
 
 Buildit
 file
@@ -307,39 +366,22 @@ has-props
 
 11378
 
-prepare_config.sh
+broadcasterctl
+dir
+
+DarwinStreamingServer-new-balance-3.0
 file
-2176
+0
+
+
+add
 
 
 
-2014-03-28T10:17:37.000000Z
-18d0b002a45817aafa842e2bdffa0098
-2010-07-19T10:10:15.504371Z
-560
-deepgreen
+
+
 has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-997
+has-prop-mods
 
 dss_license_tool.pl
 file
@@ -377,6 +419,20 @@ has-props
 
 AtomicLib
 dir
+
+DarwinStreamingServer-sip-lic-1031
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
 
 qtaccess
 file
@@ -656,8 +712,36 @@ has-props
 
 4153
 
+DDDDDDDD
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 SafeStdLib
 dir
+
+streamingserver
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
 
 deleteWinBuildDirs
 file
@@ -692,6 +776,20 @@ has-props
 
 
 96
+
+DarwinStreamingServer-zlj
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
 
 gdbdar
 file
@@ -900,6 +998,20 @@ has-props
 
 1861
 
+streamingserver-reflector.xml
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 uninstallqtss4
 file
 2176
@@ -933,9 +1045,6 @@ has-props
 
 
 1310
-
-MP3Broadcaster
-dir
 
 BuildOSXInstallerPkg
 file
@@ -971,39 +1080,8 @@ has-props
 
 6732
 
-sample_100kbit.mp4
-file
-2176
-
-
-
-2014-11-24T02:58:23.521010Z
-a570fbed76f6b25759deffc90d2732cf
-2010-07-08T07:33:10.128664Z
-531
-deepgreen
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-933456
+MP3Broadcaster
+dir
 
 defaultPaths.h
 file
@@ -1038,6 +1116,40 @@ has-props
 
 
 2651
+
+sample_100kbit.mp4
+file
+2176
+
+
+
+2014-11-24T02:58:23.521010Z
+a570fbed76f6b25759deffc90d2732cf
+2010-07-08T07:33:10.128664Z
+531
+deepgreen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+933456
 
 sample_300kbit.mp4
 file
@@ -1144,6 +1256,13 @@ has-props
 
 4732
 
+1.log
+file
+0
+
+
+add
+
 gdbplay
 file
 2176
@@ -1212,22 +1331,60 @@ has-props
 
 923
 
+DarwinStreamingServer
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 StreamingLoadTool
 dir
 
+streamingserver_relay_0.xml
+file
+0
+
+
+add
+
 WinNTSupport
+dir
+
+DarwinStreamingServer-new-balance-2.0
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+OSMemoryLib
 dir
 
 RegistrySystemPathEditor
 dir
 
-OSMemoryLib
+APIModules
 dir
 
 HTTPUtilitiesLib
 dir
 
-APIModules
+qtpasswd.tproj
 dir
 
 APPLE_LICENSE
@@ -1263,9 +1420,6 @@ has-props
 
 
 19829
-
-qtpasswd.tproj
-dir
 
 QTFileTools
 dir
@@ -1310,6 +1464,12 @@ has-props
 Documentation
 dir
 
+QTFileLib
+dir
+
+CommonUtilitiesLib
+dir
+
 sample_100kbit.mov
 file
 2176
@@ -1343,12 +1503,6 @@ has-props
 
 
 1055700
-
-CommonUtilitiesLib
-dir
-
-QTFileLib
-dir
 
 sample_300kbit.mov
 file
@@ -1384,6 +1538,37 @@ has-props
 
 2518388
 
+test-tcp.sdp-org
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+DarwinStreamingServer-relay-win-balance-0929
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+RTPMetaInfoLib
+dir
+
 streamingserver.xml-POSIX
 file
 2176
@@ -1418,8 +1603,12 @@ has-props
 
 28296
 
-RTPMetaInfoLib
-dir
+READFOZLJ.md
+file
+0
+
+
+add
 
 gdb_script
 file
@@ -1665,6 +1854,20 @@ has-props
 
 45
 
+relayconfig.xml
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 pubPackageMetaData
 dir
 
@@ -1738,6 +1941,20 @@ lili
 
 
 3524
+
+arts_darwin.spec
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
 
 uninstalldss4
 file

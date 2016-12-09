@@ -94,6 +94,20 @@ has-props
 
 1391
 
+QTSSRawFileModule.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 README-RawFileModule
 file
 
@@ -127,6 +141,20 @@ has-props
 
 
 2671
+
+QTSSRawFileModule
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
 
 QTSSRawFileModule.cpp
 file

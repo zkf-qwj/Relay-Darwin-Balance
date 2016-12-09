@@ -60,6 +60,20 @@ has-props
 
 5996
 
+QTBroadcaster.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 Makefile.POSIX
 file
 
@@ -93,4 +107,18 @@ has-props
 
 
 1387
+
+QTBroadcaster
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
 

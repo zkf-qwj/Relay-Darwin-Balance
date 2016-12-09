@@ -1347,7 +1347,7 @@ QTSS_Error  generate_sdp(char *vid,UInt32 l_callid,char *sdp_buf,Bool16 isCamera
 			}
 			{
 				OSMutexLocker locker(sRESDATDMutex);
-				if(url != NULL && strlen(url) >0 && (strstr(url,"rtsp")|| strstr(url,"udp") || strstr(url,"hikplat") || strstr(url,"sip") || strstr(url,"windows") || strstr(url,"ivms8700") ||  strstr(url,"rtmp") || strstr(url,"8200")))
+				if(url != NULL && strlen(url) >0 && (strstr(url,"rtsp")|| strstr(url,"udp") || strstr(url,"hikplat") || strstr(url,"sip") || strstr(url,"windows") || strstr(url,"ivms8700") ||  strstr(url,"rtmp") || strstr(url,"8200") || strstr(url,"http")))
 				{
 					insert_node(&res_data_list,&last_res_data,p);
 				}

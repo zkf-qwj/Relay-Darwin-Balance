@@ -2649,14 +2649,14 @@ ReflectorSession* FindOrCreateSession(StrPtrLen* inPath, QTSS_StandardRTSP_Param
 
 
 		theSession = (ReflectorSession*)theSessionRef->GetObject();   
-	//zlj add for nds	
+		//zlj add for nds	
 		char cbuf[32] = {'\0'};
 		UInt32 pLen = 0;
 		pLen = theSession->GetTotalLength();
 		qtss_sprintf(cbuf, "%"_S32BITARG_"", pLen);
 		//(void)QTSS_AppendRTSPHeader(inParams->inRTSPRequest, qtssContentLengthHeader,&cbuf[0], ::strlen(&cbuf[0]));
 		qtss_printf("\n----------------------nds contentlength:%d\n",pLen);
-		
+
 		if (isPush && theSession)
 		{
 			UInt32 theSetupFlag = ReflectorSession::kMarkSetup | ReflectorSession::kIsPushSession;
@@ -3173,14 +3173,14 @@ QTSS_Error DoSetup(QTSS_StandardRTSP_Params* inParams)
 	   (void)QTSS_AppendRTSPHeader(inParams->inRTSPRequest, qtssCacheControlHeader,
 	   kCacheControlHeader.Ptr, kCacheControlHeader.Len);
 	   */
-		char sdp_buf[4096]={'\0'};
-		char cbuf[32] = {'\0'};
-		generate_sc_nds_sdp(sdp_buf,inParams,0,l_callid);
-		StrPtrLen sdpStr(sdp_buf);
+	char sdp_buf[4096]={'\0'};
+	char cbuf[32] = {'\0'};
+	generate_sc_nds_sdp(sdp_buf,inParams,0,l_callid);
+	StrPtrLen sdpStr(sdp_buf);
 	//zlj add for nds
-		qtss_printf("\n+++++++++++nds sdp_buf:%d\n",sdpStr.Len);
-		qtss_sprintf(cbuf, "%"_S32BITARG_"",sdpStr.Len);                                                                                                                                                              
-		(void)QTSS_AppendRTSPHeader(inParams->inRTSPRequest,qtssContentLengthHeader,&cbuf[0], ::strlen(&cbuf[0]));
+	qtss_printf("\n+++++++++++nds sdp_buf:%d\n",sdpStr.Len);
+	qtss_sprintf(cbuf, "%"_S32BITARG_"",sdpStr.Len);                                                                                                                                                              
+	(void)QTSS_AppendRTSPHeader(inParams->inRTSPRequest,qtssContentLengthHeader,&cbuf[0], ::strlen(&cbuf[0]));
 	(void)QTSS_SendStandardRTSPResponse(inParams->inRTSPRequest, newStream, qtssSetupRespDontWriteSSRC);
 
 	if( sARTSTransportType == SC_NDS_MODULE )                                                                                                                                                                    
@@ -3189,7 +3189,7 @@ QTSS_Error DoSetup(QTSS_StandardRTSP_Params* inParams)
 		char cbuf[32] = {'\0'};
 		generate_sc_nds_sdp(sdp_buf,inParams,0,l_callid);
 		StrPtrLen sdpStr(sdp_buf);
-	//zlj add for nds
+		//zlj add for nds
 		qtss_printf("\n-------nds sdp_buf:%d\n",sdpStr.Len);
 		RTSPRequest * theRequest = (RTSPRequest *) inParams->inRTSPRequest;
 		theRequest->WriteContext(&sdpStr);
@@ -3278,11 +3278,11 @@ Bool16 HaveStreamBuffers(QTSS_StandardRTSP_Params* inParams, ReflectorSession* i
 QTSS_Error DoPlay(QTSS_StandardRTSP_Params* inParams, ReflectorSession* inSession)
 {
 	/*
-	if(CheckProfile(inParams) <0)
-	{
-		return QTSS_NoErr;
-	}
-	*/
+	   if(CheckProfile(inParams) <0)
+	   {
+	   return QTSS_NoErr;
+	   }
+	   */
 
 	QTSS_Error theErr = QTSS_NoErr;
 	UInt32 flags = 0;

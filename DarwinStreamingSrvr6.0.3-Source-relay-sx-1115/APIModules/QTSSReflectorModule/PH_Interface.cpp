@@ -220,7 +220,7 @@ handler_t Balance_recv_handle(void *s,void *ctx,int revents)
 			if(strcmp(flag.c_str(), "RecvStream") == 0)
 			{
 				res_data_t  *context = NULL;
-				if(strstr(url.c_str(),"rtsp") || strstr(url.c_str(),"udp") || strstr(url.c_str(),"hikplat") || strstr(url.c_str(),"rtmp") ||  strstr(url.c_str(),"windows") ||  strstr(url.c_str(),"8200") || strstr(url.c_str(),"sip"))
+				if(strstr(url.c_str(),"rtsp") || strstr(url.c_str(),"udp") || strstr(url.c_str(),"hikplat") || strstr(url.c_str(),"rtmp") ||  strstr(url.c_str(),"windows") ||  strstr(url.c_str(),"8200") || strstr(url.c_str(),"sip") || strstr(url.c_str(),"http"))
 				{	               
 					context = get_node(res_data_list,url.c_str(),NULL);	 
 				}else if (strstr(url.c_str(),"nvr"))
@@ -564,7 +564,7 @@ int sendStream(PH_Interface *obj,char *url,char *user,char *pwd,char *DeviceID,i
 	char temp[URL_LEN]={'\0'};
 	int len =0;
 	printf("send url:%s\n",url);
-	if(url != NULL && strlen(url) >0 && (strstr(url,"rtsp") || strstr(url,"rtmp")))
+	if(url != NULL && strlen(url) >0 && (strstr(url,"rtsp") || strstr(url,"rtmp") || strstr(url,"http")))
 	{
 		root["flag"]="rtsp";
 		root["url"]=url;

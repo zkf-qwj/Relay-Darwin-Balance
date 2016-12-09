@@ -60,6 +60,20 @@ has-props
 
 14663
 
+QTSSMP3StreamingModule.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 QTSSMP3StreamingModule.cpp
 file
 

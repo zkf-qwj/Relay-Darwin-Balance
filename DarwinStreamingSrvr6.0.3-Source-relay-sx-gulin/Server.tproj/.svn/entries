@@ -60,6 +60,20 @@ has-props
 
 45187
 
+RTSPRequestInterface.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 QTSSModule.cpp
 file
 
@@ -94,39 +108,19 @@ has-props
 
 15438
 
-QTSServer.h
+main.o
 file
+0
+
+
+add
 
 
 
 
-2014-03-28T10:17:51.000000Z
-d8120fba86a188b461b9cd4b940f4f78
-2010-07-08T07:33:10.128664Z
-531
-deepgreen
+
 has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5903
+has-prop-mods
 
 QTSSSocket.cpp
 file
@@ -162,6 +156,47 @@ has-props
 
 1509
 
+QTSServer.h
+file
+
+
+
+
+2014-03-28T10:17:51.000000Z
+d8120fba86a188b461b9cd4b940f4f78
+2010-07-08T07:33:10.128664Z
+531
+deepgreen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5903
+
+RTPSession.cpp~
+file
+0
+
+
+add
+
 RTPSession3GPP.h
 file
 
@@ -195,6 +230,27 @@ has-props
 
 
 2661
+
+QTSServer.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+RTSPSessionInterface.cpp~
+file
+0
+
+
+add
 
 RTPSession.h
 file
@@ -264,39 +320,19 @@ has-props
 
 29977
 
-GenerateXMLPrefs.h
+RTPSession3GPP.o
 file
+0
+
+
+add
 
 
 
 
-2014-03-28T10:17:51.000000Z
-77a77a36f5dd51aea7849c1caac03a65
-2010-07-08T07:33:10.128664Z
-531
-deepgreen
+
 has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1369
+has-prop-mods
 
 RTPStream3gpp.h
 file
@@ -332,6 +368,61 @@ has-props
 
 5075
 
+GenerateXMLPrefs.h
+file
+
+
+
+
+2014-03-28T10:17:51.000000Z
+77a77a36f5dd51aea7849c1caac03a65
+2010-07-08T07:33:10.128664Z
+531
+deepgreen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1369
+
+RTSPSessionInterface.h~
+file
+0
+
+
+add
+
+my_list.c
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 QTSSErrorLogModule.h
 file
 
@@ -365,40 +456,6 @@ has-props
 
 
 1300
-
-RTSPSessionInterface.h
-file
-
-
-
-
-2014-11-14T06:55:44.693992Z
-1678fd04acbc51eee676c3c24ad1b977
-2014-11-24T03:05:12.472536Z
-2173
-lili
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9446
 
 RTSPRequestStream.h
 file
@@ -434,6 +491,75 @@ has-props
 
 5288
 
+RTSPSessionInterface.h
+file
+
+
+
+
+2014-11-14T06:55:44.693992Z
+1678fd04acbc51eee676c3c24ad1b977
+2014-11-24T03:05:12.472536Z
+2173
+lili
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9446
+
+RTPSession.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+RTSPRequestInterface.h~
+file
+0
+
+
+add
+
+my_list.h
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 QTSSMessages.h
 file
 
@@ -468,39 +594,75 @@ has-props
 
 2386
 
-QTSSPrefs.cpp
+GenerateXMLPrefs.o
 file
+0
+
+
+add
 
 
 
 
-2014-03-28T10:17:52.000000Z
-268b623cf2c8a36e9dfddd9f79c131ff
-2010-07-08T07:33:10.128664Z
-531
-deepgreen
+
 has-props
+has-prop-mods
+
+RTPStream3gpp.o
+file
+0
+
+
+add
 
 
 
 
 
+has-props
+has-prop-mods
+
+QTSSErrorLogModule.o
+file
+0
+
+
+add
 
 
 
 
 
+has-props
+has-prop-mods
+
+RTSPRequestStream.o
+file
+0
+
+
+add
 
 
 
 
 
+has-props
+has-prop-mods
+
+RTSPSessionInterface.o
+file
+0
+
+
+add
 
 
 
 
 
-16594
+has-props
+has-prop-mods
 
 RTPPacketResender.h
 file
@@ -536,6 +698,54 @@ has-props
 
 6247
 
+QTSSPrefs.cpp
+file
+
+
+
+
+2014-03-28T10:17:52.000000Z
+268b623cf2c8a36e9dfddd9f79c131ff
+2010-07-08T07:33:10.128664Z
+531
+deepgreen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16594
+
+QTSSMessages.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 QTSSFile.h
 file
 
@@ -569,6 +779,13 @@ has-props
 
 
 2152
+
+RTSPRequest.cpp~
+file
+0
+
+
+add
 
 RTSPRequest3GPP.h
 file
@@ -637,6 +854,20 @@ has-props
 
 
 2768
+
+RTPPacketResender.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
 
 RTPSession3GPP.cpp
 file
@@ -808,6 +1039,62 @@ has-props
 
 9276
 
+QTSSFile.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+RTSPRequest3GPP.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+RunServer.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+asd.c
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 RTPSession.cpp
 file
 
@@ -875,6 +1162,20 @@ has-props
 
 
 3079
+
+QTSServerPrefs.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
 
 RTPStream3gpp.cpp
 file
@@ -944,6 +1245,34 @@ has-props
 
 9411
 
+asd.h
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+QTSSModule.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 RTSPRequestStream.cpp
 file
 
@@ -1012,6 +1341,20 @@ has-props
 
 20241
 
+RTSPRequest.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 RTPPacketResender.cpp
 file
 
@@ -1045,40 +1388,6 @@ has-props
 
 
 20947
-
-RTSPSession3GPP.cpp
-file
-
-
-
-
-2014-03-28T10:17:54.000000Z
-49a44530ece15a05ce184ae9fad07d54
-2010-07-08T07:33:10.128664Z
-531
-deepgreen
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2058
 
 RTPStream.h
 file
@@ -1114,6 +1423,40 @@ has-props
 
 15825
 
+RTSPSession3GPP.cpp
+file
+
+
+
+
+2014-03-28T10:17:54.000000Z
+49a44530ece15a05ce184ae9fad07d54
+2010-07-08T07:33:10.128664Z
+531
+deepgreen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2058
+
 RTPOverbufferWindow.h
 file
 
@@ -1148,39 +1491,12 @@ has-props
 
 4339
 
-QTSSCallbacks.cpp
+RTPSessionInterface.cpp~
 file
+0
 
 
-
-
-2014-08-05T09:57:28.000000Z
-32e211ada69b168f54fb89f84cc5882e
-2014-03-18T08:28:54.185814Z
-1960
-lili
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-36289
+add
 
 RTPSessionInterface.cpp
 file
@@ -1216,17 +1532,17 @@ has-props
 
 23889
 
-RunServer.cpp
+QTSSCallbacks.cpp
 file
 
 
 
 
-2014-03-28T10:17:54.000000Z
-428676c60778456bf9eca7bdec1bf6a6
-2010-07-08T07:33:10.128664Z
-531
-deepgreen
+2014-08-05T09:57:28.000000Z
+32e211ada69b168f54fb89f84cc5882e
+2014-03-18T08:28:54.185814Z
+1960
+lili
 has-props
 
 
@@ -1248,7 +1564,7 @@ has-props
 
 
 
-24343
+36289
 
 RTSPRequest3GPP.cpp
 file
@@ -1284,6 +1600,40 @@ has-props
 
 9997
 
+RunServer.cpp
+file
+
+
+
+
+2014-03-28T10:17:54.000000Z
+428676c60778456bf9eca7bdec1bf6a6
+2010-07-08T07:33:10.128664Z
+531
+deepgreen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+24343
+
 RTSPSession.cpp
 file
 
@@ -1318,6 +1668,20 @@ has-props
 
 101667
 
+RTPStream.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 QTSSPrefs.h
 file
 
@@ -1351,6 +1715,20 @@ has-props
 
 
 4370
+
+RTPOverbufferWindow.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
 
 QTSSExpirationDate.h
 file
@@ -1420,6 +1798,27 @@ has-props
 
 46531
 
+QTSServerPrefs.h~
+file
+0
+
+
+add
+
+QTSSPrefs.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 win32main.cpp
 file
 
@@ -1453,6 +1852,20 @@ deepgreen
 
 
 18982
+
+QTSSExpirationDate.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
 
 RTSPProtocol.cpp
 file
@@ -1488,40 +1901,6 @@ has-props
 
 15495
 
-QTSSStream.h
-file
-
-
-
-
-2014-03-28T10:17:52.000000Z
-51ab69cd1df0c4705c8b82c93e1db5b9
-2010-07-15T02:49:43.813539Z
-539
-deepgreen
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3333
-
 RTPBandwidthTracker.h
 file
 
@@ -1555,6 +1934,40 @@ has-props
 
 
 7548
+
+QTSSStream.h
+file
+
+
+
+
+2014-03-28T10:17:52.000000Z
+51ab69cd1df0c4705c8b82c93e1db5b9
+2010-07-15T02:49:43.813539Z
+539
+deepgreen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3333
 
 QTSSDataConverter.cpp
 file
@@ -1658,6 +2071,13 @@ has-props
 
 44913
 
+RTSPRequestInterface.cpp~
+file
+0
+
+
+add
+
 RTPStream.cpp
 file
 
@@ -1692,6 +2112,13 @@ has-props
 
 87443
 
+RunServer.cpp-1017
+file
+0
+
+
+add
+
 RTSPRequestInterface.cpp
 file
 
@@ -1725,6 +2152,20 @@ has-props
 
 
 39729
+
+RTPBandwidthTracker.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
 
 RTPOverbufferWindow.cpp
 file
@@ -1794,6 +2235,20 @@ has-props
 
 20475
 
+QTSSUserProfile.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 RTSPResponseStream.h
 file
 
@@ -1827,40 +2282,6 @@ has-props
 
 
 4950
-
-RTSPSession3GPP.h
-file
-
-
-
-
-2014-03-28T10:17:54.000000Z
-ee6ac6664d51d5cd0db6c8ba95d94b72
-2010-07-08T07:33:10.128664Z
-531
-deepgreen
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1873
 
 QTSSExpirationDate.cpp
 file
@@ -1896,6 +2317,40 @@ has-props
 
 3247
 
+RTSPSession3GPP.h
+file
+
+
+
+
+2014-03-28T10:17:54.000000Z
+ee6ac6664d51d5cd0db6c8ba95d94b72
+2010-07-08T07:33:10.128664Z
+531
+deepgreen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1873
+
 QTSServer.cpp
 file
 
@@ -1929,6 +2384,40 @@ has-props
 
 
 48304
+
+RTPSessionInterface.h
+file
+
+
+
+
+2014-05-08T06:37:07.000000Z
+0c864cad7baaee117fd613650ba9ed09
+2014-05-08T01:34:33.493103Z
+1984
+lili
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16115
 
 QTSSCallbacks.h
 file
@@ -1964,39 +2453,19 @@ has-props
 
 8602
 
-RTPSessionInterface.h
+RTSPResponseStream.o
 file
+0
+
+
+add
 
 
 
 
-2014-05-08T06:37:07.000000Z
-0c864cad7baaee117fd613650ba9ed09
-2014-05-08T01:34:33.493103Z
-1984
-lili
+
 has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-16115
+has-prop-mods
 
 RTCPTask.h
 file
@@ -2066,6 +2535,62 @@ has-props
 
 7075
 
+RTSPSession3GPP.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+QTSSCallbacks.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+RTPSessionInterface.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+RTCPTask.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 QTSSSocket.h
 file
 
@@ -2099,6 +2624,20 @@ has-props
 
 
 1722
+
+RTSPSession.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
 
 QTSSErrorLogModule.cpp
 file
@@ -2167,6 +2706,20 @@ has-props
 
 
 3760
+
+QTSSSocket.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
 
 QTSSDataConverter.h
 file
@@ -2338,6 +2891,20 @@ has-props
 
 17936
 
+RTSPProtocol.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 RTSPRequestInterface.h
 file
 
@@ -2371,6 +2938,20 @@ has-props
 
 
 16706
+
+QTSSDataConverter.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
 
 QTSSFile.cpp
 file
@@ -2406,6 +2987,13 @@ has-props
 
 6877
 
+RTSPSession.cpp~
+file
+0
+
+
+add
+
 RTCPTask.cpp
 file
 
@@ -2439,4 +3027,39 @@ has-props
 
 
 4837
+
+QTSServerInterface.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+QTSServerPrefs.cpp~
+file
+0
+
+
+add
+
+QTSSDictionary.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
 

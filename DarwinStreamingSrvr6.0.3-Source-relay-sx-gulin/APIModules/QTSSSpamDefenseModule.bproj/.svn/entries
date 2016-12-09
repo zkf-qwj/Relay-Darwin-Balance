@@ -94,6 +94,34 @@ has-props
 
 1433
 
+QTSSSpamDefenseModule.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+QTSSSpamDefenseModule
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 QTSSSpamDefenseModule.cpp
 file
 

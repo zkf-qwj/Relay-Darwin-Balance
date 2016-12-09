@@ -60,6 +60,20 @@ has-props
 
 12038
 
+HTTPRequest.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 HTTPProtocol.h
 file
 
@@ -195,4 +209,18 @@ has-props
 
 
 811
+
+HTTPProtocol.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
 

@@ -332,6 +332,48 @@ has-props
 
 3262
 
+BroadcasterSession.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+PlaylistPicker.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+playlist_parsers.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 PLBroadcastDef.cpp
 file
 
@@ -672,6 +714,48 @@ has-props
 
 4067
 
+playlist_broadcaster.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+PlaylistBroadcaster.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+NoRepeat.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 SimplePlayListElement.h
 file
 
@@ -706,39 +790,19 @@ has-props
 
 1758
 
-BroadcasterSession.cpp
+playlist_lists.o
 file
+0
+
+
+add
 
 
 
 
-2014-03-28T10:17:35.000000Z
-06030f6af0c3739a074d8afee65fb411
-2010-07-08T07:33:10.128664Z
-531
-deepgreen
+
 has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-40122
+has-prop-mods
 
 Makefile.POSIX
 file
@@ -774,17 +838,18 @@ has-props
 
 2740
 
-PlaylistPicker.cpp
+BroadcasterSession.cpp
 file
 
 
 
 
-2014-03-28T10:17:36.000000Z
-5025570bbcf0e4ba015f3155aa74c942
+2014-03-28T10:17:35.000000Z
+06030f6af0c3739a074d8afee65fb411
 2010-07-08T07:33:10.128664Z
 531
 deepgreen
+has-props
 
 
 
@@ -805,8 +870,7 @@ deepgreen
 
 
 
-
-12126
+40122
 
 tailor.h
 file
@@ -842,18 +906,17 @@ has-props
 
 8476
 
-BuildPlaylist
+PlaylistPicker.cpp
 file
 
 
 
 
-2014-03-28T10:17:35.000000Z
-d3f16a61a5d1044c20808e78f5b824eb
+2014-03-28T10:17:36.000000Z
+5025570bbcf0e4ba015f3155aa74c942
 2010-07-08T07:33:10.128664Z
 531
 deepgreen
-has-props
 
 
 
@@ -874,7 +937,8 @@ has-props
 
 
 
-2912
+
+12126
 
 playlist_parsers.cpp
 file
@@ -910,14 +974,14 @@ has-props
 
 14616
 
-StSmartArrayPointer.h
+BuildPlaylist
 file
 
 
 
 
-2014-03-28T10:17:36.000000Z
-5ae45cc83fe082979f848d55db2e612a
+2014-03-28T10:17:35.000000Z
+d3f16a61a5d1044c20808e78f5b824eb
 2010-07-08T07:33:10.128664Z
 531
 deepgreen
@@ -942,7 +1006,7 @@ has-props
 
 
 
-1793
+2912
 
 playlist_elements.h
 file
@@ -978,6 +1042,40 @@ has-props
 
 11400
 
+StSmartArrayPointer.h
+file
+
+
+
+
+2014-03-28T10:17:36.000000Z
+5ae45cc83fe082979f848d55db2e612a
+2010-07-08T07:33:10.128664Z
+531
+deepgreen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1793
+
 BCasterTracker.h
 file
 
@@ -1011,40 +1109,6 @@ has-props
 
 
 1942
-
-playlist_SDPGen.h
-file
-
-
-
-
-2014-03-28T10:17:36.000000Z
-ac991e2338648b5afb1990d485b5567f
-2010-07-08T07:33:10.128664Z
-531
-deepgreen
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3649
 
 PickerFromFile.h
 file
@@ -1080,6 +1144,40 @@ has-props
 
 2181
 
+playlist_SDPGen.h
+file
+
+
+
+
+2014-03-28T10:17:36.000000Z
+ac991e2338648b5afb1990d485b5567f
+2010-07-08T07:33:10.128664Z
+531
+deepgreen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3649
+
 BroadcastLog.h
 file
 
@@ -1113,6 +1211,20 @@ has-props
 
 
 3077
+
+playlist_elements.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
 
 playlist_SimpleParse.h
 file
@@ -1216,6 +1328,20 @@ has-props
 
 73951
 
+BCasterTracker.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 NoRepeat.cpp
 file
 
@@ -1249,6 +1375,34 @@ has-props
 
 
 2964
+
+PickerFromFile.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+playlist_SDPGen.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
 
 playlist_QTRTPBroadcastFile.cpp
 file
@@ -1351,6 +1505,34 @@ has-props
 
 
 4765
+
+BroadcastLog.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+playlist_SimpleParse.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
 
 PLBroadcastDef.h
 file
@@ -1522,6 +1704,34 @@ has-props
 
 1615
 
+PLBroadcastDef.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+PlaylistBroadcaster
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 playlist_elements.cpp
 file
 
@@ -1555,4 +1765,18 @@ has-props
 
 
 27960
+
+playlist_utils.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
 

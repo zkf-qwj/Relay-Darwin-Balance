@@ -196,6 +196,34 @@ has-props
 
 3289
 
+QTSSHomeDirectoryModule.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+DirectoryInfo.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 Makefile.POSIX
 file
 
@@ -229,4 +257,18 @@ has-props
 
 
 1699
+
+QTSSHomeDirectoryModule
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
 

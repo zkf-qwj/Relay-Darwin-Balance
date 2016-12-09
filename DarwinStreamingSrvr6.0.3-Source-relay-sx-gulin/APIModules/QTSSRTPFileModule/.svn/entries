@@ -60,6 +60,34 @@ has-props
 
 6643
 
+QTSSRTPFileModule.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+RTPFileSession.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 QTSSRTPFileModule.cpp
 file
 

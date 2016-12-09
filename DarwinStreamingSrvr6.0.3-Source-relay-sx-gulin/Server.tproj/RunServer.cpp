@@ -105,7 +105,11 @@ QTSS_ServerState StartServer(XMLPrefsParser* inPrefsSource, PrefsSource* inMessa
     //Mark when we are done starting up. If auto-restart is enabled, we want to make sure
     //to always exit with a status of 0 if we encountered a problem WHILE STARTING UP. This
     //will prevent infinite-auto-restart-loop type problems
-    
+	qtss_printf("<----------------------------Read Me--------------------------------------->\n");
+	qtss_printf("1.this is darwin for gulin \ longchang \ sichuan NDS STB\n");
+	qtss_printf("2.windows module modfy send to balance json: falg: windows,url: windows:3,module: 0\n");
+	qtss_printf("3.has license\n");
+	qtss_printf("<------------------------------End----------------------------------------->\n");
        
      bool l_zLicenseAcquired = true;
      bool l_zIphoneLicenseAcquired = true;

@@ -60,6 +60,20 @@ has-props
 
 109010
 
+QTSS_Private.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 APIStubLib.dsp
 file
 
@@ -263,4 +277,11 @@ has-props
 
 
 1853
+
+QTSS.h~
+file
+0
+
+
+add
 

@@ -128,6 +128,34 @@ has-props
 
 530
 
+QTSSRefMovieModule.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+QTSSRefMovieModule
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 Makefile.POSIX
 file
 

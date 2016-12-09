@@ -26,6 +26,20 @@ deepgreen
 
 2ab3efdd-4b3d-4445-97f4-9b63a9a7347a
 
+ClientSession.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
 PlayerSimulator.h
 file
 
@@ -128,6 +142,41 @@ has-props
 
 4296
 
+RTSPClient.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+ClientSocket.o
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+RTSPClient.cpp~
+file
+0
+
+
+add
+
 ClientSession.h
 file
 
@@ -229,6 +278,20 @@ has-props
 
 
 71956
+
+ClientSocket.h~
+file
+0
+
+
+add
+
+RTSPClient.h~
+file
+0
+
+
+add
 
 ClientSocket.h
 file
