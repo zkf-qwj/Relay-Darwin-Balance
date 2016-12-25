@@ -2744,7 +2744,7 @@ ReflectorSession* FindOrCreateSession(StrPtrLen* inPath, QTSS_StandardRTSP_Param
 		{  
 			theSession->SetDeviceID(vid);
 			if (strstr(src_url,"windows:") != NULL){
-				theSession->SetStopFlag("stopwin");		
+				theSession->SetStopFlag("stoprtsp");		
 			}else if (strstr(src_url,"ivms8700:") != NULL){
 				theSession->SetStopFlag("stopwin");		
 			}else if (strstr(src_url,"8200:") != NULL){

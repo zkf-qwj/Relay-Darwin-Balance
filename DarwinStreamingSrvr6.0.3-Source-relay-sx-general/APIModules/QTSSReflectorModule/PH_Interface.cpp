@@ -207,6 +207,8 @@ handler_t Balance_recv_handle(void *s,void *ctx,int revents)
 			std::string flag;
 			std::string url;
 			std::string DeviceID;
+			//std::string port_t; //12.25.duan
+			//char tmp[64]={0};	//12.25.duan
 			if(reader.parse(sPHInterface->recvBuf, root))
 			{
 				flag = root["flag"].asString();
@@ -232,10 +234,14 @@ handler_t Balance_recv_handle(void *s,void *ctx,int revents)
 				{
 					return HANDLER_GO_ON;
 				}
-
+				//qtss_printf("----------------------------------1\n");//zlj 12.25.duan
 				strcpy(context->DeviceID,DeviceID.c_str());
 				strcpy(context->ip,root["ip"].asString().c_str());
-				context->port = root["port"].asInt();
+				context->port = root["port"].asInt(); 
+				//port_t = root["DeviceId"].asString();
+					
+				//context->port = 40000 + atoi((char*)port_t.c_str) * 2; //为双流的监控适配的，udp起始端口为40000，端口固定 2016.12.25 duan
+				//qtss_printf("------shuangliu port:%d\n",context->port); //zlj 12.25daun
 				context->statu = RECVSTREAMRESP;	           
 				fprintf(stdout,"ID:%s,ip:%s,port:%d,statu:%d\n",context->DeviceID,context->ip,context->port,context->statu);
 			}else

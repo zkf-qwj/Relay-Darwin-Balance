@@ -326,7 +326,17 @@ else
 	export CORE_LINK_LIBS
 	export SHARED
 	export MODULE_LIBS
-	
+	echo "-----------------------------export----------------------------------\n"
+	echo $CPLUS
+	echo $CCOMP
+	echo $LINKER 
+	echo $COMPILER_FLAGS
+	echo $INCLUDE_FLAG
+	echo $CORE_LINK_LIBS
+	echo $SHARED
+	echo $MODULE_LIBS
+	echo "-----------------------------export----------------------------------\n"
+
 	echo Building CommonUtilitiesLib for $PLAT with $CPLUS
 	cd CommonUtilitiesLib/
 	$MAKE -f Makefile.POSIX $*
